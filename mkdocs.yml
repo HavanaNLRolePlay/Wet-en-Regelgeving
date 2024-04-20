@@ -1,0 +1,63 @@
+
+# Site informatie
+site_name: Havana NL Roleplay Wet en Regelgeving
+site_url: 'https://wetboek.havananlrp.nl/'
+site_description: 'Havana NL Roleplay Wet en Regelgeving'
+site_author: 'Havana NL Roleplay'
+
+# Copyright
+copyright: Copyright &copy; 2023 - 2024 Havana NL Roleplay
+
+# Repository
+repo_url: ''
+repo_name: 'HavanaNLRolpleay/Wet-en-regelgeving'
+edit_uri: ''
+
+
+# Config
+theme:
+  name: material
+  favicon: img/Havana.png
+  logo: img/Havana.png
+  language: nl
+
+  features:
+#    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - toc.intergrate
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - content.code.annotation
+    - content.code.copy
+
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Schakel naar donkere mode
+      primary: light blue
+      accent: red
+    - scheme: slate
+      toggle:
+        icon: material/toggle-switch
+        name: Schakel naam lighte mode
+      primary: light blue
+      accent: blue
+
+plugins:
+  - search
+
+extra:
+  social:
+    - icon: fontawesome/brands/tiktok
+      link: https://www.tiktok.com/@havanaroleplay0
+    - icon: fontawesome/brands/instagram
+      link: https://www.instagram.com/havana_nl_roleplay/
+    - icon: fontawesome/brands/facebook
+      link: https://www.facebook.com/havananlroleplay]
+
+markdown_extensions:
+  - admonition
+  - attr_list
